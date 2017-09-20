@@ -1,0 +1,15 @@
+package: github.com/roscopecoltran/httpcache
+import:
+- package: github.com/bradfitz/gomemcache
+  subpackages:
+  - memcache
+- package: github.com/garyburd/redigo
+  subpackages:
+  - redis
+- package: github.com/gregjones/httpcache
+- package: github.com/peterbourgon/diskv
+- package: github.com/syndtr/goleveldb
+  subpackages:
+  - leveldb
+testImport:
+- package: github.com/cloudfoundry/bytefmt

@@ -1,0 +1,38 @@
+hash: 287e854020c1109ddc668aaf8aba80ba9b112b387a3065f618a3465138cd1b62
+updated: 2017-09-20T20:50:04.462699833+02:00
+imports:
+- name: github.com/bradfitz/gomemcache
+  version: 1952afaa557dc08e8e0d89eafab110fb501c1a2b
+  subpackages:
+  - memcache
+- name: github.com/garyburd/redigo
+  version: 70e1b1943d4fc9c56791abaa6f4d1e727b9ab925
+  subpackages:
+  - internal
+  - redis
+- name: github.com/golang/snappy
+  version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/google/btree
+  version: 316fb6d3f031ae8f4d457c6c5186b9e3ded70435
+- name: github.com/gregjones/httpcache
+  version: 787624de3eb7bd915c329cba748687a3b22666a6
+- name: github.com/peterbourgon/diskv
+  version: 5f041e8faa004a95c88a202771f4cc3e991971e6
+- name: github.com/syndtr/goleveldb
+  version: 8c81ea47d4c41a385645e133e15510fc6a2a74b4
+  subpackages:
+  - leveldb
+  - leveldb/cache
+  - leveldb/comparer
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/journal
+  - leveldb/memdb
+  - leveldb/opt
+  - leveldb/storage
+  - leveldb/table
+  - leveldb/util
+testImports:
+- name: github.com/cloudfoundry/bytefmt
+  version: f4415fafc5619dd75599a54a7c91fb3948ad58bd
