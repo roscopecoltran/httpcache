@@ -1,5 +1,5 @@
-hash: 287e854020c1109ddc668aaf8aba80ba9b112b387a3065f618a3465138cd1b62
-updated: 2017-09-20T20:50:04.462699833+02:00
+hash: 69cae15ce188dcafa96446128d380722fc3a8515c16c7021830d44328afb4a2d
+updated: 2017-09-20T21:15:16.561964494+02:00
 imports:
 - name: github.com/bradfitz/gomemcache
   version: 1952afaa557dc08e8e0d89eafab110fb501c1a2b
@@ -15,7 +15,7 @@ imports:
 - name: github.com/google/btree
   version: 316fb6d3f031ae8f4d457c6c5186b9e3ded70435
 - name: github.com/gregjones/httpcache
-  version: 787624de3eb7bd915c329cba748687a3b22666a6
+  version: 316c5e0ff04e0ce21cfae9fbbb2ab39c7fc74e71
 - name: github.com/peterbourgon/diskv
   version: 5f041e8faa004a95c88a202771f4cc3e991971e6
 - name: github.com/syndtr/goleveldb
@@ -34,5 +34,19 @@ imports:
   - leveldb/table
   - leveldb/util
 testImports:
-- name: github.com/cloudfoundry/bytefmt
-  version: f4415fafc5619dd75599a54a7c91fb3948ad58bd
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/die-net/lrucache
+  version: 36174c11a4bb5b86413af31527b6a1469426ed06
+- name: github.com/dustin/go-humanize
+  version: 79e699ccd02f240a1f1fbbdcee7e64c1c12e41aa
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert

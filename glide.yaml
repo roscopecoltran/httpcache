@@ -12,4 +12,8 @@ import:
   subpackages:
   - leveldb
 testImport:
-- package: github.com/cloudfoundry/bytefmt
+- package: github.com/die-net/lrucache
+- package: github.com/dustin/go-humanize
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
